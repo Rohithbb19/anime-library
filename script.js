@@ -16,7 +16,12 @@ async function search(){
     result.innerHTML=""
 
     if(responce.data.length===0){
-        nodata.innerHTML=`<p>no data found</p>`
+        nodata.innerHTML=`
+        <p>no data found</p>
+        <br>
+        <br>
+        <img src="data/ANIMELIB.png" width="200px">
+        `
     }
     
     else{
