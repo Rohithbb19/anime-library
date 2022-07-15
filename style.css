@@ -78,6 +78,10 @@ body{
     justify-content: space-around;
 }
 
+#nodata{
+    color: white;
+}
+
 .warper{
     height: 370px;
     width: 100%;
