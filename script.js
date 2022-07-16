@@ -14,6 +14,7 @@ async function search(){
     let data= await fetch(`https://api.jikan.moe/v4/anime?q=${val}&sfw`)
     let responce = await data.json()
     result.innerHTML=""
+    nodata.innerHTML=""
 
     if(responce.data.length===0){
         nodata.innerHTML=`
